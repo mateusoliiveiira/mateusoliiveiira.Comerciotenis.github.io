@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-info {
+    width: 45%;
+}
+
+.product-info img {
+    max-width: 100%;
+}
+
+.product-info h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.product-info p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.product-info form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product-info label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-info input,
+.product-info select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.product-info button {
+    background-color: #1dc017;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-info button:hover {
+    background-color: #666
+}
+#menu-h{
+  background-color: #070707;
+  max-width: 17%;
+  height: 65px;
+}
+
+#menu-h ul {
+  max-width: 90%;
+  list-style: none;
+  padding: 8px;
+}
+
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  color: #070707;
+  padding: 20px ;
+  display: flex;
+  text-decoration: none;
+  transition: background.4s;
+  
+}
+
+#menu-h ul li a:hover {
+  background-color: #fffefe;
+  
+}
+
+#menu-h ul li:last-child a {
+  float: right;
+  background-color: rgb(238, 228, 228);
+  
+}
+
+  /* Cores */
+  
+  :root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --light-color: #ecf0f1;
+    --dark-color: #34495e;
+  }
+  
+  /* Estilos de página */
+  
+  body {
+    font-family:georgia;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-color);
+    background-color: var(--light-color);
+  }
+  
+  /* Cabeçalho */
+  
+  header {
+   
+    color: var(--light-color);
+    background-color: black;
+    padding: 0px 0  240px;
+    font-size: 20px;
+    height: 21px;
+    border-radius:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+  }
+  
+  header a {
+    color: var(--light-color);
+    text-decoration: none;
+   
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: "Open Sans Bold", sans-serif;
+  
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+    text-align: center;
+    padding: 0 43px 0 0 ;
+
+  }
+  
+  nav a {
+    color: var(--light-color);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: red;
+
+  }
+  
+  /* Conteúdo */
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  section h2 {
+    font-family: "Open Sans Bold", sans-serif;
+    color: var(--dark-color);
+  }
+  
+  section p {
+    font-family: "Open Sans Light", sans-serif;
+    color: var(--primary-color);
+  }
+  
+  /* Rodapé */
+  
+  footer {
+    background-color: black;
+    color: var(--light-color);
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: var(--light-color);
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: var(--secondary-color);
+  }
+  .top{
+    color: black;
+  }

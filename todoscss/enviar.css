@@ -1,0 +1,102 @@
+/* Estilos para a mensagem de sucesso */
+.success {
+    color: green;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para o cabeçalho e título */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+ 
+  h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+  }
+  
+  header {
+   
+    color: var(--light-color);
+    background-color: black;
+    padding: 0px 0  240px;
+    font-size: 20px;
+    height: 21px;
+    border-radius:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+  }
+  
+  header a {
+    color: var(--light-color);
+    text-decoration: none;
+   
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: "Open Sans Bold", sans-serif;
+  
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+    text-align: center;
+    padding: 0 43px 0 0 ;
+
+  }
+  
+  nav a {
+    color: var(--light-color);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: red;
+
+  }
+  
+  /* Conteúdo */
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  section h2 {
+    font-family: "Open Sans Bold", sans-serif;
+    color: var(--dark-color);
+  }
+  
+  section p {
+    font-family: "Open Sans Light", sans-serif;
+    color: var(--primary-color);
+  }
+  
